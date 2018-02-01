@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 10px Tahoma, Arial, sans-serif;
+    background-image: url('/img/tlo.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: #ffff00;
+    color: #666;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 50%;
+    height: 900px;
+    min-width: 500px;
+    margin: 15% auto;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px;
+    opacity: 0.9;
+}
+
+.header__text {
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    border-bottom: 2px #D8D8D8 solid;
+    text-align: center;
+    line-height: 2;
+    font-size: 2rem;
+}
+
+.text {
+    font-size: 1.5rem;
+    line-height: 2;
+    text-align: center;
+}
+
+.div__input {
+    width: 540px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 30px;
+    padding: 5px;
+}
+
+.input {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 3px;
+    border: 1px solid black;
+    transition: .2s ease-out;
+}
+
+.input:hover {
+    background-color: #ffff00;
+    font-weight: bold;
+    border-radius: 50%;
+    text-decoration: underline;
+}
+
+.crossed {
+    background-image: url('/img/cross.png');
+    background-size: contain;
+    background-position: center;
+}
+
+.btn {
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    background: #6792e3;
+    cursor: pointer;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #fff;
+    transition: .2s ease-out;
+    outline: 0;
+    line-height: 1rem;
+    display: none;
+}
+
+.btn:hover,
+.btn:focus {
+    transform: scale(1.1);
+    border: 4px solid #6792e3;
+    background-color: white;
+    color: #6792e3;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.output {
+    display: inline-block;
+    width: 300px;
+    height: 40px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background: #dda8ff;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #000000;
+
+}

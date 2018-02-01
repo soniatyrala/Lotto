@@ -1,0 +1,161 @@
+@media all and (min-width: 769px) {
+    .container {
+        height: 800px;
+        width: 600px;
+    }
+    .header__text {
+        margin-bottom: 10px;
+        font-size: 1.9rem;
+    }
+    .text {
+        font-size: 1.5rem;
+    }
+    .div__input {
+        width: auto;
+        padding: 1px;
+        margin-bottom: 100px;
+    }
+
+    .input {
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+        margin: 4px;
+    }
+
+    .btn {
+        font-size: 1.6rem;
+        margin: 20px;
+        padding: 30px;
+    }
+
+    .output {
+        width: 300px;
+        font-size: 1.7rem;
+        bottom: 10px;
+        padding: 20px;
+    }
+}
+
+@media all and (min-width: 651px) and (max-width: 768px) {
+    .container {
+        height: 750px;
+        width: 450px;
+        min-width: 90vw;
+        margin: 10% auto;
+        overflow-x: hidden;
+        padding: 10px;
+    }
+    .header__text {
+        margin-bottom: 10px;
+        font-size: 1.9rem;
+    }
+    .text {
+        font-size: 1.3rem;
+    }
+    .div__input {
+        width: auto;
+        padding: 3px;
+    }
+
+    .input {
+        width: 50px;
+        height: 50px;
+        font-size: 1.4rem;
+        margin: 3px;
+    }
+
+    .btn {
+        font-size: 1.5rem;
+        padding: 25px;
+    }
+
+    .output {
+        font-size: 1.5rem;
+        height: 30px;
+        padding: 20px;
+    }
+}
+
+@media all and (min-width: 481px) and (max-width: 650px) {
+    .container {
+        height: 750px;
+        min-width: 90vw;
+        margin: 10% auto;
+        overflow-x: hidden;
+        padding: 10px;
+    }
+    .header__text {
+        margin-bottom: 10px;
+        font-size: 1.7rem;
+    }
+    .text {
+        font-size: 1.3rem;
+    }
+    .div__input {
+        width: auto;
+        padding: 3px;
+    }
+
+    .input {
+        width: 45px;
+        height: 45px;
+        font-size: 1.3rem;
+        margin: 3px;
+    }
+
+    .btn {
+        font-size: 1.4rem;
+        padding: 20px;
+    }
+
+    .output {
+        font-size: 1.4rem;
+        height: 30px;
+        padding: 15px;
+    }
+}
+
+@media all and (max-width: 480px) {
+
+    .container {
+        height: auto;
+        min-width: 90vw;
+        margin: 10% auto;
+        overflow-x: hidden;
+        padding: 10px;
+    }
+    .header__text {
+        margin-bottom: 10px;
+        font-size: 1.6rem;
+    }
+    .text {
+        font-size: 1.2rem;
+    }
+    .div__input {
+        width: auto;
+        padding: 3px;
+        margin-bottom: 10px;
+    }
+
+    .input {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+        margin: 3px;
+    }
+
+    .btn {
+        font-size: 1.1rem;
+        padding: 15px;
+    }
+
+    .output {
+        width: 250px;
+        height: 30px;
+        padding: 10px;
+        font-size: 1.2rem;
+        bottom: 10px;
+    }
+
+}
