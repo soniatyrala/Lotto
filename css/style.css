@@ -5,7 +5,7 @@
 
 body {
     font: 10px Tahoma, Arial, sans-serif;
-    background-image: url('img/tlo.png');
+    background-image: url('/img/tlo.jpg');
     background-repeat: no-repeat;
     background-position: top center;
     background-color: #ffff00;
@@ -70,7 +70,7 @@ body {
 }
 
 .crossed {
-    background-image: url('img/cross.png');
+    background-image: url('/img/cross.png');
     background-size: contain;
     background-position: center;
 }
